@@ -1,0 +1,98 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.main{
+width: 100%;
+background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),
+url(https://scontent.fmnl17-3.fna.fbcdn.net/v/t1.15752-9/272818595_695587231920058_3155480962305638320_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=ae9488&_nc_ohc=qoIlpuxX6FgAX-F5n0e&_nc_ht=scontent.fmnl17-3.fna&oh=03_AdT7UhleQVdUAMXmrbuU6rFKUfCagplsBkUTzgFmu5Ljrw&oe=6370B14A);
+background-size: cover;
+height: 100vh;
+
+}
+.logo{
+width: 100vh;
+align-items: relative;
+margin: 20px;
+font-family: Courier New;
+color: #800080;
+}
+.menu icon{
+width: 25px;
+cursor: pointer;
+
+}
+nav{
+flex: 1;
+text-align: right;
+}
+nav ul li{
+list-style: none;
+display: inline-block;
+margin-right: 30px;
+}
+nav ul li a{
+text-decoration: none;
+color: #000;
+font-size: 14px;
+}
+nav ul li a:hover;
+color: ##FFFFFF;
+
+
+}
+.row{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 100px 0;
+}
+.col-1{
+flex-basis: 40%;
+position: relative;
+margin-left: 50px;
+}
+.col-1 h2{
+font-size: 54px;
+font-color: #FFFFFF;
+}
+.col-1 h3{
+font-size: 30px;
+color: #707070;
+font-weight: 100;
+margin: 20px 0 10px;
+}
+.col-1 p{
+font-size: 16px;
+color: #b7b7b7;
+font-weight: 100;
+}
+.col-1 h4{
+margin: 30px 0;
+font-size: 20px;
+color: #FFFFFF;
+}
+button{
+width: 140px;
+border: 0;
+padding: 12px 10px;
+outline: none;
+font-size: 	Times New Roman;
+color: #0000FF;
+cursor: pointer;
+transition: width 0.5s;
+}
+button:hover{
+width: 160px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.col::after{
+content: '';
+width: 10px;
+height: 57%;
+background: linear-gradient(#ff469f, #ff6062);
+position: absolute;
+left: -40px;
+top: 8px;
